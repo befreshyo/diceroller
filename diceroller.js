@@ -7,9 +7,9 @@ function RollDice(){
     y = document.getElementById("diceY").value = Math.floor(Math.random()*6) + 1;
 
     if (x > y){
-        result = "user1 winner!"
+        result = "person 1 winner!"
     } else if (y > x){
-        result = "user2 winner!"
+        result = "person 2 winner!"
     } else {
         result ="tied."
     }
