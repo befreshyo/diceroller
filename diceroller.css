@@ -28,15 +28,19 @@ h3 {
 button {
     font-family: sans-serif;
     margin-left:6.5em;
+    margin-right:40em;
     margin-top:em;
     margin-bottom: 0em;
-    cursor: pointer;}
+    cursor: pointer;
+    text-align: center;}
 
 input{
     font-family: sans-serif;
-    margin-left:6.5em;
+    margin-left:7.4em;
     margin-top:0em;
-    margin-bottom: 0em;}
+    margin-bottom: 0em;
+    text-align: center;
+    margin-right:50em;}
 
 
 #wrapper {
