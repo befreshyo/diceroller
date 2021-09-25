@@ -21,3 +21,4 @@ function start(){
     RollDiceX();
     RollDice();
 }
+

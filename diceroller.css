@@ -18,7 +18,7 @@ h2 {
 
 h3 {    
     margin-top:0em;
-    margin-bottom: .5em;
+    margin-bottom: 0em;
     margin-left:12em; 
     font-size: 15px;
     font-family: sans-serif;
@@ -27,19 +27,28 @@ h3 {
 h4 {    
     margin-top:1em;
     margin-bottom: 0em;
-    margin-left:3.5em;
-    margin-right:40em;
-    font-size: 15px;
+    margin-left:3em;
+    margin-right:30em;
+    font-size: 20px;
     font-family: sans-serif;
     font-weight:normal;
     text-align: center;}
 
 button {
     font-family: sans-serif;
-    margin-left:13em;
+    margin-left:10em;
     margin-top:em;
     margin-bottom: 0em;
-    cursor: pointer;}
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: none;
+    position: relative;
+    animation-name: shake;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;}
 
 input{
     font-family: sans-serif;
@@ -53,4 +62,35 @@ input{
     margin-left:auto;
     margin-right:auto;
     width:960px;}
+    
+img{
+    background-color: white;
+    color:white;
+    border: none;
+    outline:none;
+    margin-top:0em;
+    margin-bottom: 0em;}
 
+
+button:hover {
+    animation-name: shakeAnim;}
+    
+@keyframes shakeAnim {
+    0% {left: 0}
+    1% {left: -3px}
+    2% {left: 5px}
+    3% {left: -8px}
+    4% {left: 8px}
+    5% {left: -5px}
+    6% {left: 3px}
+    7% {left: 0}}
+
+@keyframes shake {
+    0% {left: 0}
+    1% {left: -3px}
+    2% {left: 5px}
+    3% {left: -8px}
+    4% {left: 8px}
+    5% {left: -5px}
+    6% {left: 3px}
+    7% {left: 0}}
