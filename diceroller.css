@@ -49,9 +49,13 @@ button {
     animation-duration: 5s;
     animation-timing-function: ease-in;}
 
+p{
+    text-align: center;
+}
+
 input{
     font-family: sans-serif;
-    margin-left:13em;
+    margin-left:8.5em;
     margin-top:0em;
     margin-bottom: 0em;
     margin-right:50em;
