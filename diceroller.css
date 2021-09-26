@@ -19,7 +19,7 @@ h2 {
 h3 {    
     margin-top:0em;
     margin-bottom: 0em;
-    margin-left:12em; 
+    margin-left:11.5em; 
     font-size: 15px;
     font-family: sans-serif;
     font-weight:normal;}
@@ -36,7 +36,7 @@ h4 {
 
 button {
     font-family: sans-serif;
-    margin-left:10em;
+    margin-left:9em;
     margin-top:em;
     margin-bottom: 0em;
     cursor: pointer;
@@ -51,10 +51,17 @@ button {
 
 input{
     font-family: sans-serif;
-    margin-left:14em;
+    margin-left:13em;
     margin-top:0em;
     margin-bottom: 0em;
-    margin-right:50em;}
+    margin-right:50em;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: white;
+    outline: none;
+    text-align: center;}
 
 
 #wrapper {
