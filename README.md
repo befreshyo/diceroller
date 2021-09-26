@@ -22,3 +22,10 @@ Used for: text lines border removal
 Credit: https://www.w3docs.com/tools/code-editor/2998
 
 https://www.w3schools.com/ was used for a reference. 
+
+
+Required Files:
+dicepic.png
+diceroller.css
+diceroller.js
+index.html
