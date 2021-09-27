@@ -1,7 +1,9 @@
+body{
+    text-align: center;
+}
+
 h1 {  
     margin-top: 1em; 
-    margin-left:1em;
-    margin-right:20em;
     text-align: center; 
     margin-bottom: 0em;
     font-size: 28px;
@@ -11,7 +13,6 @@ h1 {
 h2 {    
     margin-top:0em;
     margin-bottom: 2em;
-    margin-left:6.5em;
     font-size: 14px;
     font-family: sans-serif;
     font-weight:normal;}
@@ -19,7 +20,6 @@ h2 {
 h3 {    
     margin-top:0em;
     margin-bottom: 0em;
-    margin-left:11.5em; 
     font-size: 15px;
     font-family: sans-serif;
     font-weight:normal;}
@@ -27,8 +27,6 @@ h3 {
 h4 {    
     margin-top:1em;
     margin-bottom: 0em;
-    margin-left:2.3em;
-    margin-right:30em;
     font-size: 20px;
     font-family: sans-serif;
     font-weight:normal;
@@ -36,7 +34,6 @@ h4 {
 
 button {
     font-family: sans-serif;
-    margin-left:9em;
     margin-top:em;
     margin-bottom: 0em;
     cursor: pointer;
@@ -49,16 +46,12 @@ button {
     animation-duration: 5s;
     animation-timing-function: ease-in;}
 
-p{
-    text-align: center;
-}
+
 
 input{
     font-family: sans-serif;
-    margin-left:8.5em;
     margin-top:0em;
     margin-bottom: 0em;
-    margin-right:50em;
     border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
@@ -67,11 +60,6 @@ input{
     outline: none;
     text-align: center;}
 
-
-#wrapper {
-    margin-left:auto;
-    margin-right:auto;
-    width:960px;}
     
 img{
     background-color: white;
